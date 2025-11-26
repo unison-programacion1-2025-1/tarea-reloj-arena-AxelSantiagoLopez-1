@@ -12,7 +12,6 @@ for i in range(m):
     print(" " * espacios + s * chars)
 
 
-
 # Parte inferior: del mínimo al ancho máximo (espejo de la superior)
 for i in range(n - 2, -1, -1):
     espacios = i
