@@ -16,6 +16,6 @@ for i in range(m):
 for i in range(m - 2, -1, -1):
     espacios = i
     chars = (2 * m - 1) - (2 * i)
-    print(" " * espacios + s * chars)
+    print(" "*espacios + s * chars)
  
     
