@@ -7,7 +7,7 @@ def reloj_arena(m: int, s: str) -> str:
         return
 
 for i in range(m):
-    espacio = i
+    espacios = i
     chars = (2 * m - 1) - (2 * 1)
     print(" " * espacios + s * chars)
 
