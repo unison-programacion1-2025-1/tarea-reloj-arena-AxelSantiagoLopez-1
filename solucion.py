@@ -6,14 +6,14 @@ def reloj_arena(m: int, s: str) -> str:
         print("Error: La altura debe ser un entero positivo")
         return
 
-for i in range(m):
-    espacios = i
-    chars = (2 * m - 1) - (2 * 1)
-    print(" " * espacios + s * chars)
-
-for i in range(m - 2, -1, -1):
-    espacios = i
-    chars = (2 * m - 1) - (2 * i)
-    print(" "*espacios + s * chars)
- 
+    for i in range(m):
+        espacios = i
+        chars = (2 * m - 1) - (2 * 1)
+        print(" " * espacios + s * chars)
+    
+    for i in range(m - 2, -1, -1):
+        espacios = i
+        chars = (2 * m - 1) - (2 * i)
+        print(" "*espacios + s * chars)
+     
     
